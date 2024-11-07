@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "name":" Zapatillas convers | negras",
+        "price": 20000,
+        "image": "img/13.png",
+        "data-product-id" :"1",
+        "nature": {
+            "color": ["white" , "black"],
+            "size": ["S", "M", "L"],
+            "type": ["T-shir"]
+        },
+        "a":"conv-negras.html"
+    },
+    {
+        "id": 2,
+        "name":"Zapatillas convers | rojas",
+        "price": 20000,
+        "image": "img/14.png",
+        "a":"conv-rojas.html"
+    },
+    {
+        "id": 3,
+        "name":" Zapatillas deportivas | mujer",
+        "price": 30000,
+        "image": "img/9.png",
+        "data-product-id" :"3",
+        "a":"zap-dep-muj.html"
+    },
+    {
+        "id": 4,
+        "name":" Zapatillas deportivas | hombre",
+        "price": 40000,
+        "image": "img/12.png",
+        "data-product-id" :"4",
+        "a":"zap-dep-hom.html"
+    },
+    {
+        "id": 5,
+        "name":" Remera deportiva | hombre",
+        "price": 17000,
+        "image": "img/50.png",
+        "data-product-id" :"5",
+        "a":"rem-dep-hom.html"
+    },
+    {
+        "id": 6,
+        "name":" Pantalones cortos | hombre",
+        "price": 14000,
+        "image": "img/32.png",
+        "data-product-id" :"6",
+        "a":"pan-cor-hom.html"
+    },
+    {
+        "id": 7,
+        "name":" Remera deportiva | hombre",
+        "price": 14500,
+        "image": "img/53.png",
+        "data-product-id" :"7",
+        "a":"rem-dep-hom2.html"
+    },
+    {
+        "id": 8,
+        "name":" Pantalon | hombre",
+        "price": 20000,
+        "image": "img/31.png",
+        "data-product-id" :"8",
+        "a":"pan-hom.html"
+    },
+    {
+        "id": 9,
+        "name":" Pantalon | hombre",
+        "price": 40000,
+        "image": "img/35.png",
+        "data-product-id" :"9",
+        "a":"pan-hom2.html"
+    },
+    {
+        "id": 10,
+        "name" : " Pantalon cargo azul | hombre",
+        "price": 20000,
+        "image": "img/36.png",
+        "data-product-id" :"10",
+        "a":"pan-car-azu.html"
+    },
+    {
+        "id": 11,
+        "name":" Vestido animal print | mujer",
+        "price": 50000,
+        "image": "img/46.png",
+        "data-product-id" :"11",
+        "a":"ves-animal.html"
+    },
+    {
+        "id": 12,
+        "name":"Pollera negra | mujer",
+        "price": 40000,
+        "image": "img/45.png",
+        "data-product-id" :"12",
+        "a":"polle.html"
+    },
+    {
+        "id": 13,
+        "name":" Vestido negro corto | mujer",
+        "price": 45000,
+        "image": "img/43.png",
+        "data-product-id" :"13",
+        "a":"ves-n.html"
+    },
+    {
+        "id": 14,
+        "name":"Vestido verde | mujer",
+        "price": 50000,
+        "image": "img/44.png",
+        "data-product-id" :"14",
+        "a":"ves-v.html"
+    },
+    {
+        "id": 15,
+        "name":" Buzo celeste | hombre",
+        "price": 20000,
+        "image": "img/38.png",
+        "data-product-id" :"15",
+        "a":"buzo.html"
+    },
+    {
+        "id": 16,
+        "name":" Top deportivo | mujer",
+        "price": 20000,
+        "image": "img/55.png",
+        "data-product-id" :"16",
+        "a":"top.html"
+    },
+    {
+        "id": 17,
+        "name":" Body blanco | bebe",
+        "price": 15000,
+        "image": "img/bebe3.png",
+        "data-product-id" :"17",
+        "a":"body-b.html"
+    },
+    {
+        "id": 18,
+        "name":" Body celeste | bebe",
+        "price": 15000,
+        "image": "img/bebe4.png",
+        "data-product-id" :"18",
+        "a":"body-a.html"
+    },
+    {
+        "id": 19,
+        "name":" Vestido | bebe",
+        "price": 10000,
+        "image": "img/bebe5.png",
+        "data-product-id" :"18",
+        "a":"ves-b.html"
+    },
+    {
+        "id": 20,
+        "name":" Vestido | bebe",
+        "price": 10000,
+        "image": "img/bebe6.png",
+        "data-product-id" :"20",
+        "a":"ves-b2.html"
+    },
+    {
+        "id": 21,
+        "name":" Pantalon | mujer",
+        "price": 30000,
+        "image": "img/37.png",
+        "data-product-id" :"20",
+        "a":"pan-mujer.html"
+    }
+
+]

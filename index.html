@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zetla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/zetla.png" type="image/x-icon">
+</head>
+
+<body class="showCart" >
+    <div class="container">
+    <header class="header" id="header" >
+            <div class="title"></div>
+
+            <div class="icon-cart " id="boton_carrito">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="contador-carrito" id="contador-carrito">
+                <span>0</span>
+                </div>
+        </div>
+
+        <div class="logo">
+            <img src="img/zetla2.png">
+        </div>
+<div class="contenedor-boton">
+<button onclick="mostrar();"   id="boton" class="boton3"> <a href="#"><i class="fa-solid fa-user"></i></a>
+            <div class="boton2" id="boton2">
+                    <button id="logout"> <i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i>Cerrar sesión</button>
+                    <i onclick="ocultar();" id="cruz"  class="fa-solid fa-xmark"></i>
+            </div>
+</button>
+
+</div>
+			
+        <!--Menu inicio-->
+            <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <!-- <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li> -->
+                <li><a href="#ropa" onclick="seleccionar()">Ropa</a></li>
+                <!-- <li><a href="#ofertas" onclick="seleccionar()">Ofertas</a></li> -->
+                <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+            </ul>
+            </nav>
+            <div  id="nav-responsive" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </header>
+</div>
+
+    <section id="inicio">
+        <div class = "header-banner">
+            <div class = "container5 flex">
+                <div class = "header-banner-left flex">
+                    <h1>DESCUBRE LA NUEVA TEMPORADA CON NOSOTROS</h1>
+                    <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestiae ea quaerat iure unde nam ex, voluptatum consectetur enim animi facere nemo natus quis assumenda dolorem suscipit delectus harum similique.</p>
+                </div>
+                <div class = "header-banner-right">
+                    <img src = "img/header-banner-1.jpg" alt = "">
+                </div>
+            </div>
+        </div>
+        
+                <div class="listProduct" id="ropa"></div>
+    </section>
+    <section class="containe">
+        <div class="slider-wrapper">
+        <div class="slider">
+            <img
+            src="img/hombre1.png"
+            id="slider-1"
+            alt="island"
+            class="image"
+            />
+            <img
+            src="img/mujer2.png"
+            id="slider-2"
+            alt="mountain"
+            class="image"
+            />
+            <img src="img/3img.png" id="slider-3" alt="stars" class="image" />
+        </div>
+        <div class="slider-nav">
+            <a href="#slider-1" class="slider-button"></a>
+            <a href="#slider-2" class="slider-button"></a>
+            <a href="#slider-3" class="slider-button"></a>
+        </div>
+        </div>
+        </section>
+
+
+<div class="cartTab">
+        <h1>Carrito</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="" alt=""/>
+                </div>
+                <div class="title">
+                    NAME
+                </div>
+                <div class="totalPrice">
+                    $280
+                </div>
+                <div class="quantity">
+                    <span class="minus" ><</span>
+                    <span>1</span>
+                    <span class="plus" >></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Comprar</button>
+        </div>
+    </div>
+
+
+<!--INICIO FOOTER-->
+<footer class="footer" id="contacto">
+
+    <section class="footer__content">
+
+        <div class="footer__main">
+            <a href="#" class="footer__logo-link">
+                <img src="img/zetla-footer.png" class="footer__logo">
+            </a>
+
+            <nav class="footer__links">
+                <a href="#inicio" class="footer__link">Inicio</a>
+                <!-- <a href="#" class="footer__link">Servicios</a> -->
+                <a href="#ropa" class="footer__link">Ropa</a>
+                <a href="#" class="footer__link">Contacto</a>
+            </nav>
+
+            <article class="footer__contact">
+                <h4 class="footer__copy">Contact us:</h4>
+
+                <p class="footer__info">
+                    Email: zetla.deco@gmail.com
+                </p>
+
+                <p class="footer__info">
+                    Telefono: 554-433-2211
+                </p>
+
+                <p class="footer__info">
+                    Dirección 1234, Calle Principal, Ciudad de México.
+                </p>
+            </article>
+
+            <form class="footer__newsletter">
+                <input type="email" placeholder="Email" class="footer__email">
+                <input type="submit" value="Suscribete " class="footer__submit">
+            </form>
+
+            <nav class="footer__social">
+
+                <a href="#" class="footer__social-links">
+                    <img src="./assets/linkedin.svg" class="footer__media">
+                </a>
+
+                <a href="#" class="footer__social-links">
+                    <img src="./assets/facebook.svg" class="footer__media">
+                </a>
+
+                <a href="#" class="footer__social-links">
+                    <img src="./assets/twitter.svg" class="footer__media">
+                </a>
+
+            </nav>
+
+        </div>
+        <div class="mapsInfo">
+        <div class="line"></div>
+        <div class="direction">
+            <div class="directionText">Dirección: Camino Pérez esquina Dota</div>
+            <div class="mapContainer">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8140834417154!2d-56.18079632436883!3d-34.911114872845666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ba27efda03%3A0x7b00b27a1702624!2sSportFit!5e0!3m2!1ses!2suy!4v1698374733262!5m2!1ses!2suy"
+                width="800"
+                height="600"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+
+            <p class="footer__copyright-text">&copy; 2024 Todos los derechos reservados.</p>
+
+        </div>
+
+    </section>
+
+
+</footer>
+
+
+
+<!--FIN FOOTER-->
+
+
+    <script src="js/codigo.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>

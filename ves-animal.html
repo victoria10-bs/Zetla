@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestido animal print</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/zetla.png" type="image/x-icon">
+</head>
+
+<body class="showCart" >
+    <div class="container">
+    <header class="header" id="header">
+            <div class="title"></div>
+
+        <div class="logo">
+            <a href=""><img src="img/zetla2.png"></a>
+        </div>
+<div class="contenedor-boton">
+<button onclick="mostrar();"   id="boton" class="boton3"> <a href="#"><i class="fa-solid fa-user"></i></a>
+            <div class="boton2" id="boton2">
+                    <button id="logout"> <i class="fa-sharp-duotone fa-solid fa-right-to-bracket"></i>Cerrar sesión</button>
+                    <i onclick="ocultar();" id="cruz"  class="fa-solid fa-xmark"></i>
+            </div>
+</button>
+
+</div>
+        <!--Menu inicio-->
+            <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <li><a href="index.html" onclick="seleccionar()"><i class="fa-solid fa-house"></i></a></li>
+            </ul>
+            </nav>
+            <div  id="nav-responsive" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </header>
+        <div class="item2">
+            <img src="img/46.png" alt="1">
+
+            <h2 id="1">Vestido animal print</h2>
+            <div class="footer-card-product">
+                <span class="price">$50000</span>
+                <button class="estrellas"><i class="fa-solid fa-star"></i></i></button>
+                <button class="estrellas"><i class="fa-solid fa-star"></i></i></button>
+                <button class="estrellas"><i class="fa-solid fa-star"></i></i></button>
+                <button class="estrellas"><i class="fa-regular fa-star"></i></button>
+            
+                <button class="estrellas"><i class="fa-regular fa-star"></i></button>
+
+                <div class="item3">
+                    <label for="">Color</label>
+                    <select name="color">
+                        <option value="">Ninguno</option>
+                        <option value="white">white</option>
+                        <option value="black">black</option>
+                        <option value="grey">grey</option>
+                        <option value="blue">blue</option>
+                        <option value="brown">brown</option>
+                    </select>
+                </div>
+
+                <div class="item4">
+                    <label for="">Talle</label>
+                    <select name="color">
+                        <option value="">36</option>
+                        <option value="white">37</option>
+                        <option value="black">38</option>
+                        <option value="grey">39</option>
+                        <option value="blue">40</option>
+                        <option value="brown">41</option>
+                    </select>
+                </div>
+
+                <button  id="checkout" class="comprar">Comprar</button>
+                
+                <section class="descrip">
+            <div class="desc">
+            <h2>Descripción del producto</h2><br>
+            <h1 class="caract">Ideales para todo tipo de rutinas y actividades. Su diseño y confort las convierten en el calzado perfecto.
+
+                Suela de goma
+                Las zapatillas fabricadas con suela de goma tienen mayor resistencia al desgaste, son naturalmente impermeables y flexibles, y además extienden la estabilidad de la contracción.<h1/>
+            <br></br>
+                <li class="caract">Marca: Converse</li>
+                <br>
+            <li class="caract">Materiales del exterior: Lona</li>
+            <br>
+            <li class="caract">Deportes recomendados: Caminata</li>
+            <br>
+            <li class="caract">Talle: 36</li>
+            <br>
+            <li class="caract">Materiales de la suela: Goma</li>
+            </div>
+            </section>
+            <h3>Objeto relacionado</h3>
+            <section class="similar">
+            <div class="tarjeta">
+            </div>
+            <img src="img/bebe3.png"/>
+            <button><a href="body-b.html">body blanco</a></button>
+                </section>
+            </div>
+    <script src="js/productos.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+</html>
